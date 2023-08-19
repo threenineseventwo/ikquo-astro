@@ -9,6 +9,10 @@ image:
 tags: ["astro", "blogging", "learning in public"]
 ---
 
+[Home](/)
+[About](/about/)
+[Blog](/blog/)
+
 # My First Blog Post
 
 Published on: 2022-07-01
