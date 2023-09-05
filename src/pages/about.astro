@@ -1,26 +1,39 @@
 ---
 const pageTitle = "About Me";
+
+const identity = {
+  name: "Ikquo",
+  country: "United States",
+  occupation: "high school senior",
+};
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle}</title>
-	</head>
-	<body>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/blog/">Blog</a>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a href="/">Home</a>
+    <a href="/about/">About</a>
+    <a href="/blog/">Blog</a>
 
+    <h1>{pageTitle}</h1>
+    <h2>... and this website!</h2>
 
-		<title>{pageTitle}</title>
-        <h2>... and this website!</h2>
+    <p>
+      Hi there!. I'm {identity.name}! Currently I live in the {identity.country}
+      and am a {identity.occupation}.
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-	</body>
+      <p>
+        This website is a personal blog about things I want to write about.
+        Usually reviews and findings of music, anime, and novels. I'm not
+        looking to profit from this website for now, just want to write and
+        publish things.
+      </p>
+    </p>
+  </body>
 </html>
