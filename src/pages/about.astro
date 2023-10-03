@@ -6,6 +6,20 @@ const identity = {
   country: "United States",
   occupation: "high school senior",
 };
+
+const interests = [
+  "Japanese Language",
+  "Japanese Music",
+  "Coding",
+  "Light Novels",
+  "Video Games",
+  "Esports",
+  "Swimming",
+];
+
+const interestsColor = "navy";
+const fontWeight = "bold";
+const textCase = "uppercase";
 ---
 
 <html lang="en">
@@ -15,10 +29,15 @@ const identity = {
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
-    <style>
+    <style define:vars={{ interestsColor, fontWeight, textCase }}>
       h1 {
         color: purple;
         font-size: 4rem;
+      }
+      .interests {
+        color: var(--interestsColor);
+        font-weight: var(--fontWeight);
+        text-transform: var(--textcase);
       }
     </style>
   </head>
@@ -41,5 +60,10 @@ const identity = {
         publish things.
       </p>
     </p>
+
+    <p>My interests are:</p>
+    <ul>
+      {interests.map((interests) => <li class="interests">{interests}</li>)}
+    </ul>
   </body>
 </html>
