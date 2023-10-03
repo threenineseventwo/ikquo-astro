@@ -1,5 +1,11 @@
 ---
 const pageTitle = "About Me";
+
+const identity = {
+  name: "Ikquo",
+  country: "United States",
+  occupation: "high school senior",
+};
 ---
 
 <html lang="en">
@@ -9,12 +15,15 @@ const pageTitle = "About Me";
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
+<<<<<<< HEAD
     <style>
       h1 {
         color: purple;
         font-size: 4rem;
       }
     </style>
+=======
+>>>>>>> d879508f067498050fc7bf23a6f85be5d17dea59
   </head>
   <body>
     <a href="/">Home</a>
@@ -24,8 +33,22 @@ const pageTitle = "About Me";
     <h1>{pageTitle}</h1>
     <h2>... and this website!</h2>
 
+<<<<<<< HEAD
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+=======
+    <p>
+      Hi there!. I'm {identity.name}! Currently I live in the {identity.country}
+      and am a {identity.occupation}.
+
+      <p>
+        This website is a personal blog about things I want to write about.
+        Usually reviews and findings of music, anime, and novels. I'm not
+        looking to profit from this website for now, just want to write and
+        publish things.
+      </p>
+    </p>
+>>>>>>> d879508f067498050fc7bf23a6f85be5d17dea59
   </body>
 </html>
