@@ -24,6 +24,7 @@ const fontWeight = "bold";
 const textCase = "uppercase";
 import Navigation from "../components/Navigation.astro";
 import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
 ---
 
 <html lang="en">
@@ -45,9 +46,9 @@ import Footer from "../components/Footer.astro";
       }
     </style>
   </head>
-  <body>
-    <Navigation />
 
+  <body>
+    <Header />
     <h1>{pageTitle}</h1>
     <h2>... and this website!</h2>
 
