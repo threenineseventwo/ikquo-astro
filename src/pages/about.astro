@@ -1,4 +1,6 @@
 ---
+import "../styles/global.css";
+
 const pageTitle = "About Me";
 
 const identity = {
@@ -20,6 +22,8 @@ const interests = [
 const interestsColor = "navy";
 const fontWeight = "bold";
 const textCase = "uppercase";
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
 ---
 
 <html lang="en">
@@ -37,14 +41,12 @@ const textCase = "uppercase";
       .interests {
         color: var(--interestsColor);
         font-weight: var(--fontWeight);
-        text-transform: var(--textcase);
+        text-transform: var(--textCase);
       }
     </style>
   </head>
   <body>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-    <a href="/blog/">Blog</a>
+    <Navigation />
 
     <h1>{pageTitle}</h1>
     <h2>... and this website!</h2>
@@ -65,5 +67,6 @@ const textCase = "uppercase";
     <ul>
       {interests.map((interests) => <li class="interests">{interests}</li>)}
     </ul>
+    <Footer />
   </body>
 </html>
