@@ -4,10 +4,11 @@ title: "My First Blog Post"
 pubDate: 2023-08-17
 description: "This is the first post of my new Astro blog."
 author: "Ikquo"
-cover: "../../assets/images/phant/phant3.jpeg"
-coverAlt: "Phant 3 Album Cover"
+cover: ""
+coverAlt: ""
 tags: ["astro", "blogging", "learning in public"]
 ---
+![Phant 3 Cover Album](../../../src/assets//images/phant3.jpeg)
 
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
 
