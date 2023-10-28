@@ -1,7 +1,18 @@
+:root {
+  --primary-dark-color: #6a1ae2;
+  --primary-dark-darker-color: #4d07d4;
+  --primary-dark-lighter-color: #9c6aec; /* use black text*/
+  --secondary-dark-color: #16e6c0;
+  --primary-light-color: #1b4ce1;
+  --primary-light-darker-color: #0039c9;
+  --primary-light-lighter-color: #7185ec;
+}
 html {
-  background-color: #f1f5f9;
+  background-color: #FAFAFA;
   font-family: sans-serif;
 }
+
+
 html.dark {
   background-color: #121212;
   color: #fff;
@@ -9,6 +20,10 @@ html.dark {
 
 .dark .nav-links a {
   color: #fff;
+}
+
+.dark .nav-links a:hover, a:focus{
+  background-color: var(--primary-dark-color);
 }
 
 body {
@@ -62,7 +77,7 @@ h1 {
 }
 
 .nav-links a:hover, a:focus {
-  background-color: #ff9776;
+  background-color: var(--primary-light-color);
 }
 
 .expanded {
