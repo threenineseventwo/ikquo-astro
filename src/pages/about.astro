@@ -17,20 +17,18 @@ const interests = [
   "Swimming",
 ];
 
-const interestsColor = "navy";
 const fontWeight = "bold";
 const textCase = "uppercase";
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <style define:vars={{ interestsColor, fontWeight, textCase }}>
+  <style define:vars={{ fontWeight, textCase }}>
     h1 {
       color: purple;
       font-size: 4rem;
     }
     .interests {
-      color: var(--interestsColor);
       font-weight: var(--fontWeight);
       text-transform: var(--textCase);
     }
@@ -39,7 +37,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
   <p>
     Hi there!. I'm {identity.name}! Currently I live in the {identity.country}
-    and am a {identity.occupation}.
+     and am a {identity.occupation}.
   </p>
 
   <p>

@@ -1,17 +1,20 @@
 :root {
-  --primary-dark-color: #6a1ae2;
-  --primary-dark-darker-color: #4d07d4;
-  --primary-dark-lighter-color: #9c6aec; /* use black text*/
-  --secondary-dark-color: #16e6c0;
+  --primary-dark-color: #b997f1;
+  --primary-dark-darker-color: #6a1ae2;
+  --primary-dark-lighter-color: #d5c1f6; /* use black text*/
+  --secondary-dark-color: #78e2cb;
   --primary-light-color: #1b4ce1;
   --primary-light-darker-color: #0039c9;
   --primary-light-lighter-color: #7185ec;
+  --error-color: #f50000;
+  --dark-theme-error-color: #ff6060;
 }
+
 html {
   background-color: #FAFAFA;
   font-family: sans-serif;
+  color:#121212
 }
-
 
 html.dark {
   background-color: #121212;
@@ -54,14 +57,13 @@ h1 {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: #ff9776;
+  background-color: #121212;
 }
 
 .nav-links {
   width: 100%;
   top: 5rem;
   left: 48px;
-  background-color: #ff9776;
   display: none;
   margin: 0;
 }
@@ -74,10 +76,11 @@ h1 {
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
+  color:#121212;
 }
 
 .nav-links a:hover, a:focus {
-  background-color: var(--primary-light-color);
+  background-color: var(--primary-light-lighter-color);
 }
 
 .expanded {

@@ -24,9 +24,11 @@ const { frontmatter } = Astro.props;
 </BaseLayout>
 <style>
   a {
-    color: #00539f;
+    color: #6a1ae2;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    outline: none !important;
   }
-
   .tags {
     display: flex;
     flex-wrap: wrap;
@@ -34,9 +36,9 @@ const { frontmatter } = Astro.props;
 
   .tag {
     margin: 0.25em;
-    border: dotted 1px #a1a1a1;
+    border: 0.5px #a1a1a1;
     border-radius: 0.5em;
-    padding: 0.5em 1em;
+    padding: 0.25em 0.75em;
     font-size: 1.15em;
     background-color: #f8fcfd;
   }
