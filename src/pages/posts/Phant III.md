@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: "Phant III"
+title: "Compllege: Phant III"
 pubDate: 2023-08-17
 description: "A masterpiece of an album, which includes one of the most beautiful song of all time"
 author: "Ikquo"
@@ -8,16 +8,25 @@ cover: ""
 coverAlt: ""
 tags: ["music", "nhato", "taishi", "compllege", "trance"]
 ---
-![Phant 3 Cover Album](../../../src/assets//images/phant3.jpeg)
-## Artists
+![Phant 3 Cover Album](../../../src/assets/images/phant3.jpeg)
+<details>
+<summary>
+<h2>Background</h2>
+</summary>
+
+### Artists
 - Taishi
 - Nhato
 - Zts
 
-## Track List
+### Circle
+Compllege
+
+### Track List
 1. Unterhimmel
 2. Dear Eternity
 3. Horizon Effect
+</details>
 
 ## Preface
 
