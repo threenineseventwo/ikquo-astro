@@ -6,5 +6,5 @@ description: "3res"
 author: "Ikquo"
 cover: ""
 coverAlt: ""
-tags: ["music", "Feint", "", "", ""]
+tags: ["music", "Feint"]
 ---
