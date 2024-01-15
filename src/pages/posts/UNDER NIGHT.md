@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: UNDER NIGHT IN BIRTH
 author: Ikquo
-description: 
+description: "Undernight In BIRTH"
 pubDate: 2023-12-4
 tags: ["undernight", "music"]
 ---
